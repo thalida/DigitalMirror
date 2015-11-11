@@ -10,5 +10,5 @@ app.config([
 	'$stateProvider'
 	'$urlRouterProvider'
 	($stateProvider, $urlRouterProvider) ->
-		$urlRouterProvider.otherwise('/main')
+		$urlRouterProvider.otherwise('/')
 ])
