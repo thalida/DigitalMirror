@@ -2,4 +2,5 @@
 
 require('jquery');
 require('angular');
-require('./app.config.coffee');
+require('./app.module.coffee');
+require('./views/views.collection.coffee');

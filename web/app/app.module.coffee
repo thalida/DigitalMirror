@@ -6,9 +6,6 @@ window.app = angular.module 'app', [
 	require 'angular-ui-router'
 ]
 
-# require './views/components.collection.coffee'
-require './views/views.collection.coffee'
-
 app.config([
 	'$stateProvider'
 	'$urlRouterProvider'
