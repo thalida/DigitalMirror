@@ -1,3 +1,5 @@
-.reading_view {
+@import "../../assets/styles/mixins";
 
+.reading_view {
+	@extend %view;
 }

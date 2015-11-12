@@ -1,3 +1,5 @@
-.mirror_view {
+@import "../../assets/styles/mixins";
 
+.mirror_view {
+	@extend %view;
 }
