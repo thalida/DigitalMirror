@@ -1,6 +1,6 @@
 'use strict'
 
+window.moment = require('moment');
 require('jquery');
 require('angular');
-require('./app.module.coffee');
-require('./views/views.collection.coffee');
+require('./app.collection.coffee');

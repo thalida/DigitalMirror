@@ -1,0 +1,12 @@
+<div class="datetime-outer_container" ng-class="[datetime.size, datetime.position]">
+	<div class="datetime" ng-class="[datetime.size, datetime.position]">
+		<div class="datetime-clock">
+			<div
+				ng-repeat="component in datetime.clock.config.format"
+				class="datetime-clock-component datetime-clock-{{component}}"
+				ng-bind-html="datetime.clock[component]">
+			</div>
+		</div>
+		<div class="datetime-date" ng-bind-html="datetime.date.pretty"></div>
+	</div>
+</div>

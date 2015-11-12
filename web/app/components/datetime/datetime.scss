@@ -1,0 +1,57 @@
+@import "../../assets/styles/mixins";
+@import "../../assets/styles/typography";
+
+.datetime {
+	@include clearfix;
+  	max-width: 100%;
+
+	&.top_right {
+		float: right;
+	}
+
+	&-outer_container {
+		&.top_right {
+			@include clearfix;
+		}
+
+		&.center_center {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+		}
+	}
+
+	&-clock {
+		@include clearfix;
+		font-size: $font-size-2;
+
+		.datetime.huge & {
+			font-size: $font-size-1;
+		}
+
+		.datetime.top_right & {
+			float: right;
+		}
+
+		&-component {
+			float: left;
+			&:first-child {
+				&:before {
+					content: ''
+				}
+			}
+			&:before {
+				content: ':'
+			}
+		}
+	}
+
+	&-date {
+		font-size: $font-size-3;
+
+		.datetime.huge & {
+			font-size: $font-size-3;
+		}
+	}
+}

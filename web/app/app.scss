@@ -1,0 +1,11 @@
+@import "./assets/styles/colors";
+@import "./assets/styles/typography";
+
+body {
+	margin: 0;
+	padding: 0;
+
+	background-color: black;
+	color: white;
+	font: normal 100 $font-size-4/1.5 'Roboto', sans-serif;
+}
