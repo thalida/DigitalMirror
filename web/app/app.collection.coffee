@@ -1,6 +1,7 @@
 'use strict'
 
 require './app.scss'
+require './app.config.coffee'
 
 window.app = angular.module 'app', [
 	require 'angular-animate'
