@@ -16,8 +16,8 @@ module.exports = {
 	},
 	output: {
 		path: DIST,
-        filename: "[name].js",
-        chunkFilename: "[id].js",
+		filename: "[name].js",
+		chunkFilename: "[id].js",
 		publicPath: '',
 		hash: true
 	},
@@ -55,16 +55,16 @@ module.exports = {
 	},
 	plugins: [
 		new ExtractTextPlugin("[name].css", {
-            allChunks: true
-        }),
+			allChunks: true
+		}),
 		new HtmlWebpackPlugin({
 			template: APP + '/index.html', // Load a custom template
 			inject: true
 		}),
-		new ngAnnotatePlugin({
-            add: true,
-            map: true
-        }),
+		// new ngAnnotatePlugin({
+		// 	add: true,
+		// 	map: true
+		// }),
 		new webpack.HotModuleReplacementPlugin(),
 		new webpack.optimize.DedupePlugin(),
 		new webpack.ProvidePlugin({
