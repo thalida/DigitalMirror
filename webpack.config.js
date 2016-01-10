@@ -7,7 +7,7 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var ngAnnotatePlugin = require('ng-annotate-webpack-plugin');
 
 var APP = __dirname + '/app';
-var DIST = __dirname + '/app/dist';
+var DIST = __dirname + '/public';
 
 module.exports = {
 	context: APP,

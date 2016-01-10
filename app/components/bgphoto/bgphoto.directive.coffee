@@ -1,5 +1,8 @@
 'use strict'
 
+require 'assets/images/sunset-1.jpeg'
+require 'assets/images/night-1.jpeg'
+
 angular.module('app').directive 'bgphoto', ( $rootScope, $state ) ->
 	'ngInject'
 
