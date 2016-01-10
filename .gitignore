@@ -1,25 +1,18 @@
 !src/config
 
-web/node_modules/
-web/public/
-web/bower_components/
-app.config.coffee
-
+node_modules/
+public/
+dist/
 config/
 
-dist
-build/Release
-lib-cov
-coverage
-.grunt
+app.config.coffee
+
 .lock-wscript
 .DS_Store
 
-# Logs
 logs
 *.log
 
-# Runtime data
 pids
 *.pid
 *.seed
