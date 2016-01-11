@@ -1,8 +1,6 @@
 'use strict'
 
 route = ($stateProvider) ->
-	'pngInject'
-
 	$stateProvider.state('base.photo', {
 		url: '/photo'
 		templateUrl: 'views/photo/photo.html'

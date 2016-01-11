@@ -1,8 +1,6 @@
 'use strict'
 
 ClockService = ( $interval ) ->
-	'pngInject'
-
 	class Clock
 		constructor: ( opts ) ->
 			@defaults =

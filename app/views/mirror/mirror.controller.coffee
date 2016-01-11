@@ -2,8 +2,6 @@
 
 class MirrorController
 	constructor: ( $log ) ->
-		'pngInject'
-
 		@view = 'mirror'
 		return
 

@@ -2,8 +2,6 @@
 
 class ReadingController
 	constructor: ( $log, CONFIG ) ->
-		'pngInject'
-
 		@view = 'reading'
 		console.log( CONFIG )
 		return

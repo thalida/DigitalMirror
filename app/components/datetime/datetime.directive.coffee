@@ -3,8 +3,6 @@
 require '../../services/clock'
 
 angular.module('app').directive 'datetime', ( $rootScope, $state, Clock ) ->
-	'pngInject'
-
 	restrict: 'E'
 	templateUrl: 'components/datetime/datetime.html'
 	scope: {}

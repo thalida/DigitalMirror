@@ -1,8 +1,6 @@
 'use strict'
 
 angular.module('app').directive 'menu', ( $rootScope, $state ) ->
-	'pngInject'
-
 	restrict: 'E'
 	templateUrl: 'components/menu/menu.html'
 	scope: {}
