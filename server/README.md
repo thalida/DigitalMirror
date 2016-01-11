@@ -1,0 +1,10 @@
+- Install ubuntu mate: 
+- Install chromium: `$ sudo apt-get update; sudo apt-get install chromium-browser`
+- Install python modules: `sudo pip3 install pyautogui`
+- Download mirror_buttons.py and save to home dir
+- `chmod +x mirror_buttons.py`
+- In the main menu, go to: `System->Preferences->Personal->Startup Applications`
+    - Uncheck `Screensaver`  
+    - Click `Add`, command: `chromium-browser --kiosk "http://site to web ui"`
+    - Click `Add`, command: `/home/mirror/mirror_buttons.py`
+- Edit `/boot/config.txt`, change `display_rotate` to match you monitor orientation.
