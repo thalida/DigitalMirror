@@ -8,7 +8,7 @@ route = ($stateProvider, $urlRouterProvider) ->
 		abstract: true
 	})
 
-	$urlRouterProvider.when( '/', '/photo' )
+	$urlRouterProvider.when( '/', '/mirror' )
 
 	return
 
